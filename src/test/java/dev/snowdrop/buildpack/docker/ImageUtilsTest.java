@@ -1,4 +1,4 @@
-package com.github.fatiiates.javabuildpackclient.docker;
+package dev.snowdrop.buildpack.docker;
 
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -28,7 +28,7 @@ import com.github.dockerjava.api.command.PullImageCmd;
 import com.github.dockerjava.api.model.ContainerConfig;
 import com.github.dockerjava.api.model.Image;
 
-import com.github.fatiiates.javabuildpackclient.docker.ImageUtils.ImageInfo;
+import dev.snowdrop.buildpack.docker.ImageUtils.ImageInfo;
 
 @ExtendWith(MockitoExtension.class)
 public class ImageUtilsTest {

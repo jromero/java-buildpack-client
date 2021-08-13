@@ -1,4 +1,4 @@
-package com.github.fatiiates.javabuildpackclient.docker;
+package dev.snowdrop.buildpack.docker;
 
 import java.io.File;
 import java.io.IOException;

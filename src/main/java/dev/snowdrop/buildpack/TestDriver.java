@@ -1,4 +1,4 @@
-package com.github.fatiiates.javabuildpackclient;
+package dev.snowdrop.buildpack;
 
 import java.io.File;
 

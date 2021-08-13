@@ -1,10 +1,10 @@
-package com.github.fatiiates.javabuildpackclient;
+package dev.snowdrop.buildpack;
 
 import java.io.File;
 import java.util.Map;
 
-import com.github.fatiiates.javabuildpackclient.docker.ContainerEntry;
-import com.github.fatiiates.javabuildpackclient.docker.ContainerEntry.ContentSupplier;
+import dev.snowdrop.buildpack.docker.ContainerEntry;
+import dev.snowdrop.buildpack.docker.ContainerEntry.ContentSupplier;
 
 public interface BuildpackBuilder {
     

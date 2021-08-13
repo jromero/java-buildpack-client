@@ -1,6 +1,6 @@
-package com.github.fatiiates.javabuildpackclient;
+package dev.snowdrop.buildpack;
 
-import com.github.fatiiates.javabuildpackclient.BuildpackBuilder.LogReader;
+import dev.snowdrop.buildpack.BuildpackBuilder.LogReader;
 
 public class SystemRelay implements LogReader {
 

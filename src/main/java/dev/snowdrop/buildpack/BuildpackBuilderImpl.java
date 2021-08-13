@@ -1,4 +1,4 @@
-package com.github.fatiiates.javabuildpackclient;
+package dev.snowdrop.buildpack;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
@@ -23,14 +23,14 @@ import com.github.dockerjava.api.command.WaitContainerResultCallback;
 import com.github.dockerjava.api.model.Frame;
 import com.github.dockerjava.api.model.StreamType;
 
-import com.github.fatiiates.javabuildpackclient.docker.ContainerEntry;
-import com.github.fatiiates.javabuildpackclient.docker.ContainerEntry.ContentSupplier;
-import com.github.fatiiates.javabuildpackclient.docker.ContainerUtils;
-import com.github.fatiiates.javabuildpackclient.docker.DockerClientUtils;
-import com.github.fatiiates.javabuildpackclient.docker.ImageUtils;
-import com.github.fatiiates.javabuildpackclient.docker.ImageUtils.ImageInfo;
-import com.github.fatiiates.javabuildpackclient.docker.VolumeBind;
-import com.github.fatiiates.javabuildpackclient.docker.VolumeUtils;
+import dev.snowdrop.buildpack.docker.ContainerEntry;
+import dev.snowdrop.buildpack.docker.ContainerEntry.ContentSupplier;
+import dev.snowdrop.buildpack.docker.ContainerUtils;
+import dev.snowdrop.buildpack.docker.DockerClientUtils;
+import dev.snowdrop.buildpack.docker.ImageUtils;
+import dev.snowdrop.buildpack.docker.ImageUtils.ImageInfo;
+import dev.snowdrop.buildpack.docker.VolumeBind;
+import dev.snowdrop.buildpack.docker.VolumeUtils;
 
 public class BuildpackBuilderImpl implements BuildpackBuilder {
   private static final Logger log = LoggerFactory.getLogger(BuildpackBuilderImpl.class);
