@@ -1,4 +1,4 @@
-package dev.snowdrop.buildpack.docker;
+package com.github.fatiiates.javabuildpackclient.docker;
 
 import org.apache.commons.lang.SystemUtils;
 import org.slf4j.Logger;

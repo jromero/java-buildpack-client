@@ -1,4 +1,4 @@
-package dev.snowdrop.buildpack.docker;
+package com.github.fatiiates.javabuildpackclient.docker;
 
 /**
  * Represents a named volume bound to a path in a container.

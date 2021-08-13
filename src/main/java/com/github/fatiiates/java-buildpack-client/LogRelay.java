@@ -1,9 +1,9 @@
-package dev.snowdrop.buildpack;
+package com.github.fatiiates.javabuildpackclient;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import dev.snowdrop.buildpack.BuildpackBuilder.LogReader;
+import com.github.fatiiates.javabuildpackclient.BuildpackBuilder.LogReader;
 
 public class LogRelay implements LogReader {
   private static final Logger log = LoggerFactory.getLogger(LogRelay.class);

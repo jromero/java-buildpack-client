@@ -1,4 +1,4 @@
-package dev.snowdrop.buildpack.docker;
+package com.github.fatiiates.javabuildpackclient.docker;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

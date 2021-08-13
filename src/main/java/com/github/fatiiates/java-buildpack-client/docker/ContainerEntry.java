@@ -1,4 +1,4 @@
-package dev.snowdrop.buildpack.docker;
+package com.github.fatiiates.javabuildpackclient.docker;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

@@ -1,6 +1,6 @@
-package dev.snowdrop.buildpack;
+package com.github.fatiiates.javabuildpackclient;
 
-import dev.snowdrop.buildpack.BuildpackBuilder;
+import com.github.fatiiates.javabuildpackclient.BuildpackBuilder;
 
 import java.io.File;
 

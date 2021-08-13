@@ -1,4 +1,4 @@
-package dev.snowdrop.buildpack.docker;
+package com.github.fatiiates.javabuildpackclient.docker;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -25,7 +25,7 @@ import com.github.dockerjava.api.command.CreateContainerResponse;
 import com.github.dockerjava.api.model.Bind;
 import com.github.dockerjava.api.model.Volume;
 
-import dev.snowdrop.buildpack.docker.ContainerEntry.ContentSupplier;
+import com.github.fatiiates.javabuildpackclient.docker.ContainerEntry.ContentSupplier;
 
 public class ContainerUtils {
   private static final Logger log = LoggerFactory.getLogger(ContainerUtils.class);
